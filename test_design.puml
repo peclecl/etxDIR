@@ -1,0 +1,20 @@
+@startuml
+package "src" {
+    class "main.py"
+    
+    folder "utils" {
+        file "helpers.py"
+        file "validators.py"
+    }
+
+    folder "data" {
+        artifact "config.json"
+    }
+}
+
+package "tests" {
+    class "test_main.py"
+}
+
+file "README.md"
+@enduml

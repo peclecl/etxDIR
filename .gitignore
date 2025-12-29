@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE settings (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Project Specific: Ignore test output folders
+# Add any folder names here that you use for testing etxDIR
+my_new_project/
+output/
+test_output/
+*.log
